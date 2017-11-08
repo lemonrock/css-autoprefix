@@ -29,5 +29,5 @@ codegen-units = 1
 [dependencies]
 caniuse-serde = "0.0.5"
 chrono = "^0.4"
-css = "0.0.16"
+css = "0.0.17"
 maplit = "^0.1"
