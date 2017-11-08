@@ -47,6 +47,7 @@ use ::css::domain::*;
 use ::css::domain::properties::*;
 use ::css::domain::selectors::*;
 use ::css::domain::VendorPrefix::*;
+use ::std::collections::HashMap;
 use ::std::ops::Deref;
 
 
