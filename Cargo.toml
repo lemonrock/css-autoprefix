@@ -4,7 +4,7 @@
 
 [package]
 name = "css-autoprefix"
-description = "css-autoprefix"
+description = "Provides a library similar to [autoprefixer](https://github.com/postcss/autoprefixer) to prefix your CSS depending on the versions of web browsers, but in Rust. Currently needs nightly rust as a dependency (phf) needs nightly. Makes use of caniuse.com's database via caniuse-serde (ie offline)."
 keywords = ["css", "autoprefix", "autoprefixer", "stylesheet"]
 categories = ["parsing", "web-programming"]
 license = "MIT"
