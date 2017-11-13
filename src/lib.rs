@@ -18,12 +18,13 @@
 //! ```
 //! extern crate css_autoprefix;
 //! use ::css_autoprefix::*;
+//! use ::css_autoprefix::caniuse_serde::*;
 //! use ::css_autoprefix::css::*;
 //!
 //! let some_css_utf_8_encoded = "margin-top: 10px;"
 //! let stylesheet = Stylesheet::parse(some_css_utf_8_encoded).expect("valid CSS");
 //!
-//! let (can_i_use, agents) = sensible_rules_to_prefixes_default();
+//! let (can_i_use, agents) = sensible_rules_default();
 //! autoprefix_stylesheet(&mut stylesheet, &can_i_use, &agents);
 //!
 //! let mut destination = String::new();
@@ -59,5 +60,3 @@ pub(crate) mod selectorAutoprefixers;
 include!("autoprefix_stylesheet.rs");
 include!("toFeatureName.rs");
 include!("mapPrefixToVendorPrefix.rs");
-include!("sensible_rules_to_prefixes.rs");
-include!("sensible_rules_to_prefixes_default.rs");

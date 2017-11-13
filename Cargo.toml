@@ -13,10 +13,10 @@ documentation = "https://docs.rs/css-autoprefix"
 homepage = "https://github.com/lemonrock/css-autoprefix"
 repository = "https://github.com/lemonrock/css-autoprefix.git"
 exclude = ["*"]
-include = ["README.md", "LICENSE", "COPYRIGHT", "src/**/*.rs", "benches/**/*.rs", "examples/**/*.rs", "tests/**/*.rs", "Cargo.toml", "rustfmt.toml", "clippy.toml", "lib/**/*", "src/**/*.h", "tools/**/*", "bindgen-wrapper.conf.d/**/*", "compile-*.conf.d/**/*"]
+include = ["README.md", "LICENSE", "COPYRIGHT", "src/**/*.rs", "Cargo.toml", "rustfmt.toml", "clippy.toml"]
 readme = "README.md"
 publish = true
-version = "0.0.2"
+version = "0.0.3"
 
 [profile.release]
 opt-level = 3
@@ -27,7 +27,7 @@ debug-assertions = false
 codegen-units = 1
 
 [dependencies]
-caniuse-serde = "0.0.5"
+caniuse-serde = "0.0.6"
 chrono = "^0.4"
 css = "0.0.22"
 maplit = "^0.1"
