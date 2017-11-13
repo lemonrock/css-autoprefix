@@ -42,14 +42,12 @@ pub extern crate css;
 
 use self::cssRulesAutoprefixers::CompositeCssRulesAutoprefixer;
 use ::caniuse_serde::*;
-use ::caniuse_serde::regional_usage::*;
 use ::css::Stylesheet;
 use ::css::domain::*;
 use ::css::domain::properties::*;
 use ::css::domain::selectors::*;
 use ::css::domain::VendorPrefix::*;
 use ::std::collections::HashMap;
-use ::std::ops::Deref;
 
 
 pub(crate) mod cssRulesAutoprefixers;
