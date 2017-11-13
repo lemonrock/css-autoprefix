@@ -24,7 +24,7 @@
 //! let some_css_utf_8_encoded = "margin-top: 10px;"
 //! let stylesheet = Stylesheet::parse(some_css_utf_8_encoded).expect("valid CSS");
 //!
-//! let (can_i_use, agents) = sensible_rules_default();
+//! let (can_i_use, agents) = sensible_choices_default();
 //! autoprefix_stylesheet(&mut stylesheet, &can_i_use, &agents);
 //!
 //! let mut destination = String::new();
