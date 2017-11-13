@@ -25,7 +25,7 @@
 //! let stylesheet = Stylesheet::parse(some_css_utf_8_encoded).expect("valid CSS");
 //!
 //! let (can_i_use, agents) = sensible_choices_default();
-//! autoprefix_stylesheet(&mut stylesheet, &can_i_use, &agents);
+//! autoprefix_stylesheet(&mut stylesheet, &can_i_use, &choices);
 //!
 //! let mut destination = String::new();
 //! // Don't write source-map and source-url comments if any are present in the stylesheet
